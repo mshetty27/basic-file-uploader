@@ -1,0 +1,6 @@
+web:
+  image: trafex/alpine-nginx-php7
+  ports:
+    - "80:8080"
+  volumes:
+    - ./:/var/www/html
